@@ -1,0 +1,14 @@
+.listTasks{
+    margin-top: 20px;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 800px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+

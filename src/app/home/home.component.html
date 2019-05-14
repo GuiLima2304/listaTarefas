@@ -1,0 +1,14 @@
+
+<div class="home">
+  <h1 id="titleMain">{{name}}</h1>
+  <div class="insertion">
+     
+    <input type="text" [(ngModel)] = "texto" placeholder="Digite uma nova tarefa">
+
+    <button  class="create" (click)="CreateTask()"><strong>CRIAR</strong></button>
+    
+  </div>
+   
+  <app-list-tasks [listtasks]="array"></app-list-tasks>
+
+</div>

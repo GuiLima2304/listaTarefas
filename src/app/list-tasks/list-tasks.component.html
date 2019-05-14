@@ -1,0 +1,9 @@
+<div class="listTasks">
+
+  <div >
+    <ul *ngFor="let i of listtasks; index as i">
+      <li><app-task-item [task]="i"></app-task-item></li><br>
+      </ul>
+    
+  </div>
+</div>

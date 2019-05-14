@@ -1,0 +1,19 @@
+.home{
+    margin-top: 70px;
+}
+
+#titleMain{
+    text-align: center;
+}
+
+.insertion{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.create{
+    margin-left: 5px;
+    background-color: #798;
+    padding: 5px;
+}
